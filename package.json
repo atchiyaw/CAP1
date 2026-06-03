@@ -1,0 +1,17 @@
+{
+  "name": "cap1-policy-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive guide and discussion hub for the Capstone Project and Research 1 Policy and Guidelines.",
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "start": "python3 -m http.server 3000",
+    "serve": "npx --yes serve -l 3000 ."
+  },
+  "keywords": [
+    "capstone",
+    "policy",
+    "static-site"
+  ],
+  "license": "MIT"
+}
