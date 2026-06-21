@@ -7,74 +7,73 @@
   <meta name="description" content="Interactive guide and discussion hub for the Capstone Project and Research 1 Policy and Guidelines." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lexend:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Merriweather:wght@700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <!-- Reading progress -->
+<body id="top" class="sidebar-open">
   <div class="progress-bar" id="progressBar" aria-hidden="true"></div>
 
-  <!-- Header -->
-  <header class="site-header">
+  <header class="site-header" id="siteHeader">
     <div class="header-inner">
-      <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Toggle navigation">
-        <span></span><span></span><span></span>
+      <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar menu" aria-expanded="true" title="Toggle menu">
+        <i data-lucide="panel-left"></i>
       </button>
       <a href="#top" class="brand">
-        <span class="brand-mark">CAP1</span>
+        <img src="assets/logo.png" alt="Computational Sciences Department — Capstone Project & Research" class="brand-logo" />
         <span class="brand-text">
-          <strong>Capstone Project &amp; Research 1</strong>
-          <small>Policy &amp; Guidelines</small>
+          <strong>Capstone Project &amp; Research</strong>
+          <small>Computational Sciences Department</small>
         </span>
       </a>
       <div class="header-tools">
         <div class="search-box">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.3-4.3M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z"/></svg>
-          <input type="search" id="searchInput" placeholder="Search the policy…" aria-label="Search the policy" />
+          <i data-lucide="search" class="search-icon"></i>
+          <input type="search" id="searchInput" placeholder="Search…" aria-label="Search site content" />
         </div>
-        <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
-          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
-          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></svg>
-        </button>
       </div>
     </div>
   </header>
 
-  <div class="layout" id="top">
-    <!-- Sidebar TOC -->
-    <aside class="sidebar" id="sidebar">
-      <nav aria-label="Table of contents">
-        <p class="toc-title">Contents</p>
-        <ol class="toc" id="toc"></ol>
-      </nav>
-    </aside>
-    <div class="sidebar-scrim" id="sidebarScrim"></div>
+  <aside class="sidebar" id="sidebar" aria-label="Site navigation">
+    <div class="sidebar-header">
+      <p class="sidebar-title">Table of Contents</p>
+    </div>
+    <nav class="side-nav" id="sideNav" aria-label="Sections"></nav>
+  </aside>
+  <div class="sidebar-scrim" id="sidebarScrim"></div>
 
-    <!-- Main content -->
+  <div class="page-wrap">
+    <section class="page-hero">
+      <div class="page-hero-inner reveal">
+        <img class="hero-logo" src="assets/logo.png" alt="Computational Sciences Department Logo" />
+        <div class="hero-text">
+          <p class="hero-eyebrow">Official Academic Resource</p>
+          <h1>Capstone Project &amp; Research</h1>
+          <p class="hero-desc">Policy, guidelines, and requirements for Capstone Project and Research 1 — Computational Sciences Department.</p>
+          <div class="hero-meta">
+            <span><i data-lucide="layers"></i> 5 Defense Stages</span>
+            <span><i data-lucide="book-open"></i> 6 Manuscript Chapters</span>
+            <span><i data-lucide="users"></i> 3–4 Members per Group</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <main class="content">
-      <!-- HERO -->
-      <section class="hero">
-        <div class="hero-badge">Academic Policy · Effective June 3</div>
-        <h1>Policy &amp; Guidelines for<br /><span>Capstone Project &amp; Research 1</span></h1>
-        <p class="hero-lede">
-          A culminating academic requirement designed to develop, assess, and demonstrate
-          students' ability to apply knowledge, skills, and competencies — through real-world
-          problem solving, systematic inquiry, documentation, and formal defense.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#sched">View the Schedule</a>
-          <a class="btn btn-ghost" href="#defense">Defense Stages</a>
+      <!-- GOVERNING POLICIES -->
+      <article class="section section-hub parallax-section reveal" id="governing-policies">
+        <div class="section-head">
+          <div class="section-icon"><i data-lucide="scroll-text"></i></div>
+          <div>
+            <h2>Governing Policies</h2>
+            <p class="section-lead">Official policy and guidelines for Capstone Project and Research 1.</p>
+          </div>
         </div>
-        <div class="hero-stats">
-          <div class="stat"><strong>5</strong><span>Defense Stages</span></div>
-          <div class="stat"><strong>6</strong><span>Manuscript Chapters</span></div>
-          <div class="stat"><strong>3–4</strong><span>Members / Group</span></div>
-          <div class="stat"><strong>100%</strong><span>Final System</span></div>
-        </div>
-      </section>
+        <p>Covering requirements, schedule, defense procedures, manuscript structure, evaluation, and academic standards.</p>
+      </article>
 
       <!-- I. Policy Statement -->
-      <article class="section" id="sec-policy">
+      <article class="section section-nested reveal" id="sec-policy" data-group="governing-policies">
         <h2><span class="numeral">I</span> Policy Statement</h2>
         <p>The Capstone Project and Research 1 shall serve as a culminating academic requirement designed to develop, assess, and demonstrate the students' ability to apply knowledge, skills, and competencies acquired in their program of study. It provides students an opportunity to identify real-world problems, propose technology-based or research-based solutions, conduct systematic inquiry, develop appropriate systems or outputs, and present their work through formal documentation and oral defense.</p>
         <p>This policy establishes the official guidelines, schedule, group requirements, documentation format, defense procedures, expected outputs, and academic standards. All students enrolled shall comply with these guidelines to ensure uniformity, fairness, academic integrity, and quality.</p>
@@ -84,7 +83,7 @@
       </article>
 
       <!-- II. Objectives -->
-      <article class="section" id="sec-objectives">
+      <article class="section section-nested" id="sec-objectives" data-group="governing-policies">
         <h2><span class="numeral">II</span> Objectives of the Policy</h2>
         <p>This policy aims to:</p>
         <ol class="rich-list">
@@ -99,7 +98,7 @@
       </article>
 
       <!-- III. Scope -->
-      <article class="section" id="sec-scope">
+      <article class="section section-nested" id="sec-scope" data-group="governing-policies">
         <h2><span class="numeral">III</span> Scope &amp; Coverage</h2>
         <p>This policy applies to all students enrolled in Capstone Project and Research 1, covering the following activities:</p>
         <div class="chip-grid">
@@ -118,7 +117,7 @@
       </article>
 
       <!-- IV. General Guidelines -->
-      <article class="section" id="sec-general">
+      <article class="section section-nested" id="sec-general" data-group="governing-policies">
         <h2><span class="numeral">IV</span> General Guidelines</h2>
         <div class="card-row">
           <div class="info-card">
@@ -137,7 +136,7 @@
       </article>
 
       <!-- V. Grouping -->
-      <article class="section" id="sec-grouping">
+      <article class="section section-nested" id="sec-grouping" data-group="governing-policies">
         <h2><span class="numeral">V</span> Grouping Guidelines</h2>
         <p>Groups shall be composed of a <strong>minimum of three</strong> and a <strong>maximum of four</strong> members. Each group assigns internal roles, though all members remain collectively responsible for quality and completion.</p>
         <div class="role-grid">
@@ -151,7 +150,7 @@
       </article>
 
       <!-- VI. Schedule -->
-      <article class="section" id="sched">
+      <article class="section section-nested" id="sched" data-group="governing-policies">
         <h2><span class="numeral">VI</span> Schedule of Activities</h2>
         <p>The following schedule guides the conduct of the course:</p>
         <ol class="timeline">
@@ -201,7 +200,7 @@
       </article>
 
       <!-- VII & VIII. Defense Stages -->
-      <article class="section" id="defense">
+      <article class="section section-nested" id="defense" data-group="governing-policies">
         <h2><span class="numeral">VII–VIII</span> Stages &amp; Requirements of Defense</h2>
         <p>The course follows a progressive defense structure. Each stage must be completed before proceeding, unless permitted by the course teacher.</p>
         <div class="stage-grid">
@@ -259,7 +258,7 @@
       </article>
 
       <!-- IX. Manuscript -->
-      <article class="section" id="manuscript">
+      <article class="section section-nested" id="manuscript" data-group="governing-policies">
         <h2><span class="numeral">IX</span> Required Manuscript Sections</h2>
         <p>The manuscript follows the prescribed chapter structure below. Click each chapter to expand.</p>
         <div class="accordion" id="accordion">
@@ -311,7 +310,7 @@
       </article>
 
       <!-- X–XII grouped -->
-      <article class="section" id="sec-docdev">
+      <article class="section section-nested" id="sec-docdev" data-group="governing-policies">
         <h2><span class="numeral">X–XII</span> Documentation, System &amp; Compliance</h2>
         <div class="card-row">
           <div class="info-card">
@@ -330,7 +329,7 @@
       </article>
 
       <!-- XIII–XV -->
-      <article class="section" id="sec-conduct">
+      <article class="section section-nested" id="sec-conduct" data-group="governing-policies">
         <h2><span class="numeral">XIII–XV</span> Attendance, Submission &amp; Monitoring</h2>
         <div class="card-row">
           <div class="info-card">
@@ -349,7 +348,7 @@
       </article>
 
       <!-- XVI. Evaluation -->
-      <article class="section" id="sec-eval">
+      <article class="section section-nested" id="sec-eval" data-group="governing-policies">
         <h2><span class="numeral">XVI</span> Evaluation Guidelines</h2>
         <p>Evaluation may include the following criteria:</p>
         <div class="criteria-grid">
@@ -369,7 +368,7 @@
       </article>
 
       <!-- XVII. Grounds -->
-      <article class="section" id="sec-grounds">
+      <article class="section section-nested" id="sec-grounds" data-group="governing-policies">
         <h2><span class="numeral">XVII</span> Grounds for Revision, Rejection, or Re-Defense</h2>
         <p>A group may be required to revise, change, or defend again under any of the following:</p>
         <ol class="rich-list warn">
@@ -387,7 +386,7 @@
       </article>
 
       <!-- XVIII–XXI -->
-      <article class="section" id="sec-ethics">
+      <article class="section section-nested" id="sec-ethics" data-group="governing-policies">
         <h2><span class="numeral">XVIII–XXI</span> Ethics, Final Output &amp; Effectivity</h2>
         <div class="card-row">
           <div class="info-card">
@@ -405,24 +404,223 @@
         </div>
       </article>
 
+      <!-- GROUPINGS -->
+      <article class="section section-hub section-placeholder parallax-section reveal" id="groupings">
+        <div class="section-head">
+          <div class="section-icon"><i data-lucide="users"></i></div>
+          <div><h2>Groupings</h2></div>
+        </div>
+        <div class="placeholder-card">
+          <span class="placeholder-badge">Coming soon</span>
+          <p>Guidelines, requirements, and resources for capstone group formation will be posted here.</p>
+        </div>
+      </article>
+
+      <!-- CONCEPT DEFENSE -->
+      <article class="section section-hub section-placeholder parallax-section reveal" id="concept-defense">
+        <div class="section-head">
+          <div class="section-icon"><i data-lucide="lightbulb"></i></div>
+          <div><h2>Concept Defense</h2></div>
+        </div>
+        <div class="placeholder-card">
+          <span class="placeholder-badge">Coming soon</span>
+          <p>Requirements, presentation format, and evaluation details for Concept Defense will be posted here.</p>
+        </div>
+      </article>
+
+      <!-- TITLE DEFENSE -->
+      <article class="section section-hub parallax-section reveal" id="title-defense">
+        <div class="section-head">
+          <div class="section-icon"><i data-lucide="presentation"></i></div>
+          <div>
+            <h2>Title Defense</h2>
+            <p class="section-lead">Schedule, panel members, and submission requirements.</p>
+          </div>
+        </div>
+
+        <div class="title-defense-meta">
+          <div class="schedule-banner">
+            <i data-lucide="calendar" class="inline-icon"></i>
+            <span class="schedule-label">Schedule of the Title Defense</span>
+            <strong class="schedule-range">June 29, 2026 – July 3, 2026</strong>
+          </div>
+
+          <div class="panel-block">
+            <h3 class="subsection-title"><i data-lucide="user-check" class="inline-icon"></i> Panel Members</h3>
+            <div class="panel-grid">
+              <div class="panel-card panel-chair">
+                <span class="panel-role">Chairman</span>
+                <strong>Salvador V. Briones II</strong>
+              </div>
+              <div class="panel-card">
+                <span class="panel-role">Member</span>
+                <strong>Rowell John B. Artiaga</strong>
+              </div>
+              <div class="panel-card">
+                <span class="panel-role">Member</span>
+                <strong>Michael B. Amata</strong>
+              </div>
+              <div class="panel-card panel-alt">
+                <span class="panel-role">Alternate Member</span>
+                <strong>Froiland B. Peñalosa</strong>
+              </div>
+              <div class="panel-card panel-alt">
+                <span class="panel-role">Alternate Member</span>
+                <strong>Kennedy C. Cuya</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="subsection-title">Submission Deadlines</h3>
+        <div class="deadline-row">
+          <div class="deadline-card">
+            <span class="deadline-label">Posters</span>
+            <strong class="deadline-date">July 23, 2026</strong>
+          </div>
+          <div class="deadline-card deadline-primary">
+            <span class="deadline-label">Defense Papers</span>
+            <strong class="deadline-date">July 25, 2026</strong>
+          </div>
+        </div>
+
+        <h3 class="subsection-title">Upload Requirements</h3>
+        <p class="muted">For each group, upload the following to the shared Google Drive folder.</p>
+
+        <div class="submission-grid">
+          <div class="submission-card">
+            <div class="submission-head">
+              <span class="submission-num"><i data-lucide="file-text"></i></span>
+              <h3>Defense Papers</h3>
+            </div>
+            <ol class="submission-steps">
+              <li>Create a folder inside the <strong>DEFENSE PAPERS</strong> folder.</li>
+              <li>Name the folder using this format:<br /><code>Group#_LName1LName2LName3LName4</code></li>
+              <li>Upload the following files:
+                <ul class="file-list">
+                  <li><code>Group#_TitleDefense</code> — Title Defense paper</li>
+                  <li><code>Group#_Concept2</code> — Concept paper 2</li>
+                  <li><code>Group#_Concept3</code> — Concept paper 3</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+
+          <div class="submission-card">
+            <div class="submission-head">
+              <span class="submission-num"><i data-lucide="image"></i></span>
+              <h3>Posters</h3>
+            </div>
+            <ol class="submission-steps">
+              <li>Locate the <strong>POSTERS</strong> folder in the shared drive.</li>
+              <li>Create a folder for your section (same approach as Defense Papers).</li>
+              <li>Inside your section folder, create a folder named:<br /><code>Group#Poster</code></li>
+              <li>Upload your group posters to that folder.</li>
+            </ol>
+          </div>
+
+          <div class="submission-card submission-drive">
+            <div class="submission-head">
+              <span class="submission-num"><i data-lucide="upload-cloud"></i></span>
+              <h3>Shared Google Drive Folder</h3>
+            </div>
+            <p>Access the official CAP1 2K26 Title Defense folder to upload defense papers and posters.</p>
+            <a class="btn btn-primary drive-link" href="https://drive.google.com/drive/folders/1bPe6TWN6otLmO5Irn3Y-uQMZmaJas3gG?usp=sharing" target="_blank" rel="noopener noreferrer">
+              Open Google Drive Folder
+            </a>
+            <p class="drive-note muted">Folder: <strong>CAP1 2K26 TITLE DEFENSE</strong> — contains DEFENSE PAPERS and POSTERS subfolders.</p>
+          </div>
+        </div>
+
+        <div class="callout">
+          <strong>Reminder:</strong> Use the exact folder and file naming formats above so submissions can be identified and checked on time.
+        </div>
+      </article>
+
+      <!-- PROGRESS REPORT 1 -->
+      <article class="section section-hub section-placeholder parallax-section reveal" id="progress-report-1">
+        <div class="section-head">
+          <div class="section-icon"><i data-lucide="bar-chart-3"></i></div>
+          <div><h2>Progress Report 1</h2></div>
+        </div>
+        <div class="placeholder-card">
+          <span class="placeholder-badge">Coming soon</span>
+          <p>Documentation and system deliverables for Progress Report 1 (60% working system) will be posted here.</p>
+        </div>
+      </article>
+
+      <!-- PROGRESS REPORT 2 -->
+      <article class="section section-hub section-placeholder parallax-section reveal" id="progress-report-2">
+        <div class="section-head">
+          <div class="section-icon"><i data-lucide="bar-chart-4"></i></div>
+          <div><h2>Progress Report 2</h2></div>
+        </div>
+        <div class="placeholder-card">
+          <span class="placeholder-badge">Coming soon</span>
+          <p>Documentation and system deliverables for Progress Report 2 (90% working system) will be posted here.</p>
+        </div>
+      </article>
+
+      <!-- FINAL DEFENSE -->
+      <article class="section section-hub section-placeholder parallax-section reveal" id="final-defense">
+        <div class="section-head">
+          <div class="section-icon"><i data-lucide="award"></i></div>
+          <div><h2>Final Defense</h2></div>
+        </div>
+        <div class="placeholder-card">
+          <span class="placeholder-badge">Coming soon</span>
+          <p>Final submission requirements, compliance report guidelines, and defense procedures will be posted here.</p>
+        </div>
+      </article>
+
+      <!-- FORMS -->
+      <article class="section section-hub section-placeholder parallax-section reveal" id="forms">
+        <div class="section-head">
+          <div class="section-icon"><i data-lucide="file-text"></i></div>
+          <div><h2>Forms</h2></div>
+        </div>
+        <div class="placeholder-card">
+          <span class="placeholder-badge">Coming soon</span>
+          <p>Downloadable forms and submission templates will be posted here.</p>
+        </div>
+      </article>
+
+      <!-- CAPSTONE TEMPLATE -->
+      <article class="section section-hub section-placeholder parallax-section reveal" id="capstone-template">
+        <div class="section-head">
+          <div class="section-icon"><i data-lucide="layout-template"></i></div>
+          <div><h2>Capstone Template</h2></div>
+        </div>
+        <div class="placeholder-card">
+          <span class="placeholder-badge">Coming soon</span>
+          <p>The official capstone manuscript template and formatting guide will be posted here.</p>
+        </div>
+      </article>
+
       <!-- DISCUSSION -->
-      <article class="section" id="discussion">
-        <h2><span class="numeral">✦</span> Discussion Board</h2>
+      <article class="section parallax-section reveal" id="discussion">
+        <div class="section-head">
+          <div class="section-icon"><i data-lucide="message-circle"></i></div>
+          <div>
+            <h2>Discussion Board</h2>
+            <p class="section-lead">Questions and comments about the capstone process.</p>
+          </div>
+        </div>
         <p>Have a question or comment about a part of the policy? Post it here. Discussions are saved in your browser so you can revisit them anytime.</p>
         <form class="discuss-form" id="discussForm">
           <div class="df-row">
             <input type="text" id="dName" placeholder="Your name (optional)" maxlength="40" />
             <select id="dTopic" aria-label="Topic">
               <option value="General">General</option>
-              <option value="Grouping">Grouping</option>
-              <option value="Schedule">Schedule</option>
+              <option value="Governing Policies">Governing Policies</option>
+              <option value="Groupings">Groupings</option>
               <option value="Concept Defense">Concept Defense</option>
               <option value="Title Defense">Title Defense</option>
-              <option value="Progress Reports">Progress Reports</option>
+              <option value="Progress Report 1">Progress Report 1</option>
+              <option value="Progress Report 2">Progress Report 2</option>
               <option value="Final Defense">Final Defense</option>
-              <option value="Manuscript">Manuscript</option>
-              <option value="System Development">System Development</option>
-              <option value="Academic Integrity">Academic Integrity</option>
+              <option value="Forms">Forms</option>
+              <option value="Capstone Template">Capstone Template</option>
             </select>
           </div>
           <textarea id="dMessage" placeholder="Write your question or comment…" rows="3" required maxlength="600"></textarea>
@@ -435,14 +633,16 @@
       </article>
 
       <footer class="site-footer">
-        <p><strong>Capstone Project &amp; Research 1</strong> — Policy &amp; Guidelines</p>
-        <p class="muted">An interactive companion to the official 14-page policy document. For full compliance, always refer to the official document provided by your course teacher.</p>
+        <img src="assets/logo.png" alt="" class="footer-logo" />
+        <p><strong>Capstone Project &amp; Research</strong></p>
+        <p class="muted">Computational Sciences Department · An interactive companion to the official policy document.</p>
       </footer>
     </main>
   </div>
 
-  <a href="#top" class="to-top" id="toTop" aria-label="Back to top">↑</a>
+  <a href="#top" class="to-top" id="toTop" aria-label="Back to top"><i data-lucide="arrow-up"></i></a>
 
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
