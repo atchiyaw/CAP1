@@ -405,14 +405,59 @@
       </article>
 
       <!-- GROUPINGS -->
-      <article class="section section-hub section-placeholder parallax-section reveal" id="groupings">
+      <article class="section section-hub parallax-section reveal" id="groupings">
         <div class="section-head">
           <div class="section-icon"><i data-lucide="users"></i></div>
-          <div><h2>Groupings</h2></div>
+          <div>
+            <h2>Groupings</h2>
+            <p class="section-lead">Capstone groups by section with Title Defense concepts and technology breakdown.</p>
+          </div>
         </div>
-        <div class="placeholder-card">
-          <span class="placeholder-badge">Coming soon</span>
-          <p>Guidelines, requirements, and resources for capstone group formation will be posted here.</p>
+
+        <div class="groupings-dashboard" id="groupingsDashboard" aria-live="polite">
+          <p class="muted">Loading group data…</p>
+        </div>
+
+        <div class="groupings-controls" id="groupingsControls" hidden>
+          <div class="groupings-control-group">
+            <label for="groupingsSort">Sort by</label>
+            <select id="groupingsSort" class="groupings-select">
+              <option value="section">Section &amp; Group #</option>
+              <option value="presenter">Presenter</option>
+              <option value="technology">Technology</option>
+            </select>
+          </div>
+          <div class="groupings-control-group">
+            <label for="groupingsFilter">Section</label>
+            <select id="groupingsFilter" class="groupings-select">
+              <option value="all">All sections</option>
+              <option value="BSIT3A">BSIT3A</option>
+              <option value="BSIT3B">BSIT3B</option>
+              <option value="BSIT3C">BSIT3C</option>
+              <option value="BSIT3D">BSIT3D</option>
+              <option value="BSIT3E">BSIT3E</option>
+            </select>
+          </div>
+          <label class="groupings-toggle">
+            <input type="checkbox" id="groupingsShowReserved" />
+            <span>Show reserved concepts (Concept 2 &amp; 3)</span>
+          </label>
+        </div>
+
+        <div class="groupings-table-wrap" id="groupingsTableWrap" hidden>
+          <table class="groupings-table" id="groupingsTable">
+            <thead>
+              <tr>
+                <th>Section</th>
+                <th>Group #</th>
+                <th>Presenter</th>
+                <th>Title Defense Concept</th>
+                <th>Proponents</th>
+                <th>Order</th>
+              </tr>
+            </thead>
+            <tbody id="groupingsTableBody"></tbody>
+          </table>
         </div>
       </article>
 
@@ -574,14 +619,70 @@
       </article>
 
       <!-- FORMS -->
-      <article class="section section-hub section-placeholder parallax-section reveal" id="forms">
+      <article class="section section-hub parallax-section reveal" id="forms">
         <div class="section-head">
           <div class="section-icon"><i data-lucide="file-text"></i></div>
-          <div><h2>Forms</h2></div>
+          <div>
+            <h2>Forms</h2>
+            <p class="section-lead">Official DCS capstone and research project forms for download.</p>
+          </div>
         </div>
-        <div class="placeholder-card">
-          <span class="placeholder-badge">Coming soon</span>
-          <p>Downloadable forms and submission templates will be posted here.</p>
+
+        <div class="forms-grid">
+          <div class="form-card">
+            <div class="form-card-head">
+              <span class="form-code">DCS-CF-01</span>
+              <h3>Application Form</h3>
+            </div>
+            <p>Application for oral title defense. Used to list group members, proposed working titles (Concepts 1–3), required documents, and adviser certification to proceed with title defense.</p>
+            <a class="btn btn-primary form-download" href="forms/DCS-CF-01_Capstone%20and%20Research%20Project_Application%20Form.pdf" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="download"></i> Download PDF
+            </a>
+          </div>
+
+          <div class="form-card">
+            <div class="form-card-head">
+              <span class="form-code">DCS-CF-02</span>
+              <h3>Title Evaluation Form</h3>
+            </div>
+            <p>Title approval and evaluation form for the panel. Records proposed concepts, committee recommendations, weighted ratings, and remarks during title defense.</p>
+            <a class="btn btn-primary form-download" href="forms/DCS-CF-02_Capstone%20and%20Research%20Project_Tilte-Evaluation%20Form.pdf" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="download"></i> Download PDF
+            </a>
+          </div>
+
+          <div class="form-card">
+            <div class="form-card-head">
+              <span class="form-code">DCS-CF-03</span>
+              <h3>Progress Report Application Sheet</h3>
+            </div>
+            <p>Application for oral progress report defense. Includes project title, documentation requirements (Chapters 1–4), presentation files checklist, and adviser certification.</p>
+            <a class="btn btn-primary form-download" href="forms/DCS-CF-03_Capstone%20and%20Research%20Project_Progress%20Report%20Application%20Sheet.pdf" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="download"></i> Download PDF
+            </a>
+          </div>
+
+          <div class="form-card">
+            <div class="form-card-head">
+              <span class="form-code">DCS-CF-04</span>
+              <h3>Progress Report Evaluation Sheet</h3>
+            </div>
+            <p>Evaluation sheet for individual committee members to score a progress report defense based on substance, technological impact, and presentation delivery.</p>
+            <a class="btn btn-primary form-download" href="forms/DCS-CF-04_Capstone%20and%20Research%20Project_Progress%20Report%20Evaluation%20Sheet.pdf" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="download"></i> Download PDF
+            </a>
+          </div>
+
+          <div class="form-card">
+            <div class="form-card-head">
+              <span class="form-code">DCS-CF-0</span>
+              <h3>Progress Report Evaluation Summary Sheet</h3>
+            </div>
+            <p>Summary evaluation sheet consolidating panel ratings and remarks for a progress report defense, with signatures from committee members and the project adviser.</p>
+            <a class="btn btn-primary form-download" href="forms/DCS-CF-0_Capstone%20and%20Research%20Project_Progress%20Report%20Evaluation%20Summary%20Sheet.pdf" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="download"></i> Download PDF
+            </a>
+          </div>
         </div>
       </article>
 
@@ -644,5 +745,6 @@
 
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
   <script src="script.js"></script>
+  <script src="groupings.js"></script>
 </body>
 </html>

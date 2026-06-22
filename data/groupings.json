@@ -1,0 +1,1669 @@
+{
+  "groups": [
+    {
+      "section": "BSIT3A",
+      "groupNumber": 1,
+      "presenter": "Fuentebella, Kristine Marie",
+      "proponents": [
+        "Agdoro, Arian Jane",
+        "Cea, Stephanie Jane",
+        "Dometita, Jeema"
+      ],
+      "presenterOrder": 5,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "ARchive: Digital Preservation of Engineering Prototypes Using an AR-",
+          "technology": "Augmented Reality",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "PISTII: A Multiplayer Mobile Game System for the Digital Preservation of",
+          "technology": "Game Development",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "ARchive: Digital Preservation of Engineering Prototypes Using an AR-",
+      "titleDefenseTechnology": "Augmented Reality"
+    },
+    {
+      "section": "BSIT3A",
+      "groupNumber": 2,
+      "presenter": "Abellon, Rolando",
+      "proponents": [
+        "Bulaqueña, Roduf",
+        "Canizo, Ivan Dominic",
+        "Frondozo, Jhon Mico"
+      ],
+      "presenterOrder": 37,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "with Deduction-Based Performance Assessment for Crimonology Students",
+          "technology": "Virtual Reality",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "EcoQuest: Partido A 3D Game-Based Learning Application for Enhancing Biodiversity Awareness",
+          "technology": "Game Development",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "with Deduction-Based Performance Assessment for Crimonology Students",
+      "titleDefenseTechnology": "Virtual Reality"
+    },
+    {
+      "section": "BSIT3A",
+      "groupNumber": 3,
+      "presenter": "Mañago, Ashley Nicole",
+      "proponents": [
+        "Boy, Sophia, Bianca",
+        "Eco, Alex Dawn",
+        "Vasquez, Elyssa Rose"
+      ],
+      "presenterOrder": 8,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "PRAXIZ: An AI-Powered Internship Monitoring and Perfomance Analytics",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "DormMate: A Web-Based Student Dormitory Management and Resident",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "PRAXIZ: An AI-Powered Internship Monitoring and Perfomance Analytics",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3A",
+      "groupNumber": 4,
+      "presenter": "Artista, Kim",
+      "proponents": [
+        "Bendicio, Jerome",
+        "Busilig, John Alexis",
+        "Candelaria, John Lloyd"
+      ],
+      "presenterOrder": 33,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Bakal-Bote: A Web-Based Scrap and Recyclable Waste Marketplace for",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "ParSUFind: A Web-based Lost and Found Item Recovery in Partido State",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Bakal-Bote: A Web-Based Scrap and Recyclable Waste Marketplace for",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3A",
+      "groupNumber": 5,
+      "presenter": "Zape, Clint Harry",
+      "proponents": [
+        "Atole, Vincent Roland",
+        "Froa, Jaylon Kirby",
+        "Hernandez, Robi Luke"
+      ],
+      "presenterOrder": 38,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Teaching Pedestrian Road Safety Awareness Among Elementary School",
+          "technology": "Game Development",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "QuakeRun: A 3D Earthquake Preparedness and Survival Simulation",
+          "technology": "Game Development",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Teaching Pedestrian Road Safety Awareness Among Elementary School",
+      "titleDefenseTechnology": "Game Development"
+    },
+    {
+      "section": "BSIT3A",
+      "groupNumber": 6,
+      "presenter": "Buetre, Dan Jehu",
+      "proponents": [
+        "Agpoon, Micaella Joy",
+        "Bonon, Revica",
+        "Canicula, Jhon Vincent",
+        "Banks, Ricky"
+      ],
+      "presenterOrder": 24,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "MarhaySalud: A Web-Based Health Information and Record Management",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "TAHAN: Tenant and Accommodation Housing Administration Network – A",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Web-Based Boarding House and Apartment Rental Management System. Cyber Awareness Quest: A 2D Game-Based Learning Application for",
+          "technology": "Game Development",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "MarhaySalud: A Web-Based Health Information and Record Management",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3A",
+      "groupNumber": 7,
+      "presenter": "Ante, Joshua",
+      "proponents": [
+        "Tabuzo, William",
+        "Passiona , Mark Angelo"
+      ],
+      "presenterOrder": 41,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "CO2-Sense: An IoT-Based Indoor Air Quality Monitoring System for",
+          "technology": "IoT / Embedded",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Reserved Concept 2",
+          "technology": "—",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "CO2-Sense: An IoT-Based Indoor Air Quality Monitoring System for",
+      "titleDefenseTechnology": "IoT / Embedded"
+    },
+    {
+      "section": "BSIT3A",
+      "groupNumber": 8,
+      "presenter": "Piloneo, Joseph",
+      "proponents": [
+        "Godoy, Rosiel",
+        "Pacao, Lysalyn",
+        "Amata, Victoria Zoe"
+      ],
+      "presenterOrder": 22,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "GeoGuardians: A 3D Educational Disaster Preparedness Game for Flood",
+          "technology": "Game Development",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "EdukPath: Adaptive Learning Platform with AI-Powered Quiz Generation",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "GeoGuardians: A 3D Educational Disaster Preparedness Game for Flood",
+      "titleDefenseTechnology": "Game Development"
+    },
+    {
+      "section": "BSIT3A",
+      "groupNumber": 9,
+      "presenter": "Buenafe, Donna",
+      "proponents": [
+        "Balinas, Jessa",
+        "De Las Alas, Crizel"
+      ],
+      "presenterOrder": 30,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "ParSU e-Feedback: Development of an Integrated Student Complaint and",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Shop Bloom Sampaguita: A Web-Based Platform for Sampaguita Farming,",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "ParSU e-Feedback: Development of an Integrated Student Complaint and",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3A",
+      "groupNumber": 10,
+      "presenter": "Corono, Bhea",
+      "proponents": [
+        "Esquerra, Cylene",
+        "Lovete, John Rey",
+        "Brinces, Russell"
+      ],
+      "presenterOrder": 27,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "University: A",
+          "technology": "System Development",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Reserved Concept 2",
+          "technology": "—",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "University: A",
+      "titleDefenseTechnology": "System Development"
+    },
+    {
+      "section": "BSIT3A",
+      "groupNumber": 11,
+      "presenter": "Cordova, Lio Bhasil",
+      "proponents": [
+        "Lim, Brian Jose",
+        "Cadiz, John Rien",
+        "Adayo, Kaicer"
+      ],
+      "presenterOrder": 18,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "PsyCheck: A Web-Based Mental Health Screening and Referral System",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "ParSU Who: A Faculty and Staff Information Management System for",
+          "technology": "Game Development",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "PsyCheck: A Web-Based Mental Health Screening and Referral System",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3B",
+      "groupNumber": 1,
+      "presenter": "Monserate, Lon Adlehcir",
+      "proponents": [
+        "Nabus, Blesszy Joy",
+        "Barranda, Shejay"
+      ],
+      "presenterOrder": 7,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "COSTruct AR: Augmented Reality-Based Measurement and Cost",
+          "technology": "Augmented Reality",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Storm Preparedness Game Simulator: A Gamified Disaster Readiness",
+          "technology": "Game Development",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "COSTruct AR: Augmented Reality-Based Measurement and Cost",
+      "titleDefenseTechnology": "Augmented Reality"
+    },
+    {
+      "section": "BSIT3B",
+      "groupNumber": 2,
+      "presenter": "Picaso, Jose Greg",
+      "proponents": [
+        "Salvo, Earl Francis",
+        "Zamudio, Melchizedek"
+      ],
+      "presenterOrder": 45,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Identifying Selected Plant Species and Their Conservation Status in the",
+          "technology": "Augmented Reality",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Reserved Concept 2",
+          "technology": "—",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Identifying Selected Plant Species and Their Conservation Status in the",
+      "titleDefenseTechnology": "Augmented Reality"
+    },
+    {
+      "section": "BSIT3B",
+      "groupNumber": 3,
+      "presenter": "Vale, Harold Hector",
+      "proponents": [
+        "Pamor, Regine",
+        "Vipinoso, Jessica",
+        "Oliver, Princess Irish"
+      ],
+      "presenterOrder": 34,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "BantayApoy: Integrated Fire Reporting & Response Tracking system",
+          "technology": "Web and Mobile Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "ProxiGuard: Arduino-based Ultrasonic Distance Monitoring and Real-time",
+          "technology": "System Development",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "LoreBound: A level-Based Hybrid 2D Educational Game On Bicolano",
+          "technology": "Game Development",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "BantayApoy: Integrated Fire Reporting & Response Tracking system",
+      "titleDefenseTechnology": "Web and Mobile Application"
+    },
+    {
+      "section": "BSIT3B",
+      "groupNumber": 4,
+      "presenter": "Piano, Karl Laurence",
+      "proponents": [
+        "Ricarte, Emerson Jay",
+        "Atendido, Mary Anne",
+        "Cantor, Ma. Analyn"
+      ],
+      "presenterOrder": 26,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "DISASTER: An Interactive Game-Based Simulation System for Multi-Hazard",
+          "technology": "Game Development",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "ResqGo: A 2D Gamified Simulation Application for First Aid and",
+          "technology": "Game Development",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "DISASTER: An Interactive Game-Based Simulation System for Multi-Hazard",
+      "titleDefenseTechnology": "Game Development"
+    },
+    {
+      "section": "BSIT3B",
+      "groupNumber": 5,
+      "presenter": "Opeda, Manolito",
+      "proponents": [
+        "Balacanao, Eldwin Joshua",
+        "Perias, Crissel",
+        "Sabordo, Gladys"
+      ],
+      "presenterOrder": 11,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Alert System forRapid Police Response",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Decision Support Analytics Huli Ka: A 2D Cross-Platform Traffic Enforcer Simulation Game for",
+          "technology": "Game Development",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Alert System forRapid Police Response",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3B",
+      "groupNumber": 6,
+      "presenter": "Ricarte, Dexter",
+      "proponents": [
+        "Penaflor, Jay Ann",
+        "Pasturan, Rolan",
+        "Perdon, Mary Joy"
+      ],
+      "presenterOrder": 1,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Local Plant and Insect Biodiversity Among Biology Students at Partido State",
+          "technology": "Mobile Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Web-Based Farm Management Dashboard ParSU ScholarHub: A Web-Based Digital Repository for Student Research,",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Local Plant and Insect Biodiversity Among Biology Students at Partido State",
+      "titleDefenseTechnology": "Mobile Application"
+    },
+    {
+      "section": "BSIT3B",
+      "groupNumber": 7,
+      "presenter": "Moralida, Rizza C.",
+      "proponents": [
+        "Texon, Marianne L.",
+        "Tivera, Maria Mae B.",
+        "Belmonte, John Michael B."
+      ],
+      "presenterOrder": 6,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Identification and Interactive 3D Ammunition Anatomy System",
+          "technology": "Augmented Reality",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "with GPS-Based Proximity Alerts AgriPredict: An IoT-Based Soil Moisture Forecasting and Remote Water",
+          "technology": "System Development",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Identification and Interactive 3D Ammunition Anatomy System",
+      "titleDefenseTechnology": "Augmented Reality"
+    },
+    {
+      "section": "BSIT3B",
+      "groupNumber": 8,
+      "presenter": "Kumar, Jeet",
+      "proponents": [
+        "Palaypayon, Joan Mae",
+        "Rosamiran, Janna Mae"
+      ],
+      "presenterOrder": 31,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "DryGuard: An IoT-Based Smart Automated Clothesline System for Laundry",
+          "technology": "System Development",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "CaseClosed: A Digital Crime Scene Investigation Training Game for",
+          "technology": "Game Development",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "DryGuard: An IoT-Based Smart Automated Clothesline System for Laundry",
+      "titleDefenseTechnology": "System Development"
+    },
+    {
+      "section": "BSIT3B",
+      "groupNumber": 9,
+      "presenter": "Buendia, Marvin",
+      "proponents": [
+        "Dominguez, Jezel",
+        "Oriana, Mary Rose",
+        "Sales, Rea Mae"
+      ],
+      "presenterOrder": 10,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "LifeGuard: A Computer Vision and Arduino-Based Drowning Detection",
+          "technology": "System Development",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Geographic Information Systems-Based Intelligent Water Source Locator",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "LifeGuard: A Computer Vision and Arduino-Based Drowning Detection",
+      "titleDefenseTechnology": "System Development"
+    },
+    {
+      "section": "BSIT3B",
+      "groupNumber": 10,
+      "presenter": "Bruzo, Sheleecates Y.",
+      "proponents": [
+        "Enon, Jorge Ellise M.",
+        "Sales, Cynthia A.",
+        "Tejares, Mark James N."
+      ],
+      "presenterOrder": 44,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "CrimeCase VR: A Case-Based Virtual Reality Crime Investigation Learning",
+          "technology": "Virtual Reality",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "ARMuseo: A Mobile Augmented Reality Museum Guide and Cultural",
+          "technology": "Augmented Reality",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "CrimeCase VR: A Case-Based Virtual Reality Crime Investigation Learning",
+      "titleDefenseTechnology": "Virtual Reality"
+    },
+    {
+      "section": "BSIT3B",
+      "groupNumber": 11,
+      "presenter": "Tenorio, Brian Al P.",
+      "proponents": [
+        "Pahuwayan, Jomel A.",
+        "Villareal, George A.",
+        "Saor, Christine Joy"
+      ],
+      "presenterOrder": 9,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Recognition and Gamified Learning System for Road",
+          "technology": "Augmented Reality",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "University BantayBus: A Web-Based Real-Time Bus Tracking and Estimated",
+          "technology": "System Development",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Recognition and Gamified Learning System for Road",
+      "titleDefenseTechnology": "Augmented Reality"
+    },
+    {
+      "section": "BSIT3C",
+      "groupNumber": 1,
+      "presenter": "Pasa, John Carlo J.",
+      "proponents": [
+        "De Jesus, Simond James A.",
+        "Marasigan, Aron James P.",
+        "Belza, Ressa"
+      ],
+      "presenterOrder": 23,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "using QR Codes for Efficient Local Disaster Response for MDRRMO San",
+          "technology": "Mobile Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Arduino-Based Flood Temetery System: Real-time Height and Flow",
+          "technology": "IoT / Embedded",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "using QR Codes for Efficient Local Disaster Response for MDRRMO San",
+      "titleDefenseTechnology": "Mobile Application"
+    },
+    {
+      "section": "BSIT3C",
+      "groupNumber": 2,
+      "presenter": "Boñaga, Angel Lito",
+      "proponents": [
+        "Atole, Mikkie A.",
+        "Belo, Apolo V."
+      ],
+      "presenterOrder": 14,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Geolocation Mapping, and Response Coordination System for the",
+          "technology": "Web and Mobile Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Using Artificial Intelligence and Computer Vision GOAHealth: An Integrated Healthcare Teleconsultation Management and Patient Referral System with GIS-Based Mapping for the Municipality of",
+          "technology": "System Development",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Geolocation Mapping, and Response Coordination System for the",
+      "titleDefenseTechnology": "Web and Mobile Application"
+    },
+    {
+      "section": "BSIT3C",
+      "groupNumber": 3,
+      "presenter": "Garcia, John Denver P.",
+      "proponents": [
+        "Bobis, Janine",
+        "Casasis, Ernesto Jr",
+        "Abalos, Michelle B."
+      ],
+      "presenterOrder": 47,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "TraceDrive: A Vehicle Accident Tracking and Records Management",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "CyberShield: A Cybersecurity Awareness Simulation Game",
+          "technology": "Game Development",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "TraceDrive: A Vehicle Accident Tracking and Records Management",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3C",
+      "groupNumber": 4,
+      "presenter": "Capagalan, Joshua",
+      "proponents": [
+        "De Vera, Christian",
+        "Egagamao, Julie Ann",
+        "Espiritu, Marjem"
+      ],
+      "presenterOrder": 13,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Fire Safety Compliance Tracker: Leveraging Automation in Regulatory",
+          "technology": "Web and Mobile Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "AR-Based Interactive Tourism Information and Route Guidebase in",
+          "technology": "Augmented Reality",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Fire Safety Compliance Tracker: Leveraging Automation in Regulatory",
+      "titleDefenseTechnology": "Web and Mobile Application"
+    },
+    {
+      "section": "BSIT3C",
+      "groupNumber": 5,
+      "presenter": "Alarcon, Alyssa",
+      "proponents": [
+        "Cano, Monneth",
+        "Tarroza, Joan",
+        "Bares, Leomer"
+      ],
+      "presenterOrder": 43,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Implementation of an RFID and Face Recognition Enabled Attendance",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Smart Object Recognition and Voice Assisted Learning System for",
+          "technology": "Mobile Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Implementation of an RFID and Face Recognition Enabled Attendance",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3C",
+      "groupNumber": 6,
+      "presenter": "Floriano, Allykies Troy",
+      "proponents": [
+        "Bono, Maxin Joy",
+        "Prila, Marc Reoul",
+        "Papa, Alley Mc Keiht"
+      ],
+      "presenterOrder": 20,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "IGNIS: A Smart Fire Alert and Response Mobile Application",
+          "technology": "Mobile Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "RightsWise: Human Rights Learning and Assessment System for",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "AR and VR-Based Firearm Parts Learning and Identification Application for",
+          "technology": "Web Application",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "IGNIS: A Smart Fire Alert and Response Mobile Application",
+      "titleDefenseTechnology": "Mobile Application"
+    },
+    {
+      "section": "BSIT3C",
+      "groupNumber": 7,
+      "presenter": "Beltran, Jules Alquin",
+      "proponents": [
+        "Cano, Christian",
+        "Alvea, Christine",
+        "Boholano, John Kenneth"
+      ],
+      "presenterOrder": 39,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "CSI Learn: A Web-Based Crime Scene Investigation Training System for",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "AR ExamNav: An Augmented Reality Campus Wayfinding System for",
+          "technology": "Augmented Reality",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "CSI Learn: A Web-Based Crime Scene Investigation Training System for",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3C",
+      "groupNumber": 8,
+      "presenter": "Basella, John Michael",
+      "proponents": [
+        "Abay, Krisma Faye",
+        "Cano, John Carlo",
+        "De La Mata, John Rey"
+      ],
+      "presenterOrder": 50,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Platform for Improving Student Awareness and Accessibility to Guidance",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "HydrantMap: A Mobile Crowdsourcing Application for Real-Time Fire Hydrant",
+          "technology": "Mobile Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Platform for Improving Student Awareness and Accessibility to Guidance",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3C",
+      "groupNumber": 9,
+      "presenter": "Seguenza, Aljie R.",
+      "proponents": [
+        "Domdom, Benedick",
+        "Exequiel, Celedonio",
+        "Netuliano, Samuel",
+        "Pacay, Fe Jay"
+      ],
+      "presenterOrder": 40,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Fishermen of Barangay Tagas Boulevard",
+          "technology": "IoT / Embedded",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Scheduling and Real-Time Ranking Monitoring. AgriMarket: A Web-Based Agricultural Market Demand and Supply Information System with Price and Demand Prediction for Farmers and",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Fishermen of Barangay Tagas Boulevard",
+      "titleDefenseTechnology": "IoT / Embedded"
+    },
+    {
+      "section": "BSIT3C",
+      "groupNumber": 10,
+      "presenter": "Sabenorio, Jonas",
+      "proponents": [
+        "San Juan, Razel",
+        "Talaran, Danica"
+      ],
+      "presenterOrder": 35,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Reference Library with Progression-Based Learning Paths and",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Cyber Investigator: A Simulation Game for Enhancing Cybersecurity",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Awareness and Cybercrime Detection Skills Cemora: A Web and Mobile-Based Grid-Structured Multi-Cemetery Mapping and Family Relationship Visualization System with Data",
+          "technology": "Web and Mobile Application",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Reference Library with Progression-Based Learning Paths and",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3D",
+      "groupNumber": 1,
+      "presenter": "Delfino, Christian",
+      "proponents": [
+        "Lodor, Christian Emmanuel",
+        "Remalla, Zaira",
+        "Rojas, Jecel"
+      ],
+      "presenterOrder": 4,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Visualizing Plate Tectonics and Momentum Concepts in Grade 10",
+          "technology": "Augmented Reality",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "with an AI-Powered Career Advisor FractionLens: A 2D Interactive Learning Game in Godot for Grade 4",
+          "technology": "Game Development",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Fractions Aligned with the DepEd MATATAG Curriculum A CNN-Based Eggplant Leaf Disease and Nutrient Deficiency Detection System with Treatment Recommendation for Farmers in the Municipality of",
+          "technology": "Mobile Application",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Visualizing Plate Tectonics and Momentum Concepts in Grade 10",
+      "titleDefenseTechnology": "Augmented Reality"
+    },
+    {
+      "section": "BSIT3D",
+      "groupNumber": 2,
+      "presenter": "Maravillo, Jhonalyn",
+      "proponents": [
+        "Pre, Clide Jude",
+        "Asor, Joshua David",
+        "Vasquez, Kim"
+      ],
+      "presenterOrder": 2,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "AgriMarket: A Web-Based E-Commerce and Pricing Portal for Farmers",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "SmartStudy: An Intelligent Mobile Application for Smartphone Usage",
+          "technology": "Mobile Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Monitoring and Academic Risk Detection",
+          "technology": "Web and Mobile Application",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "AgriMarket: A Web-Based E-Commerce and Pricing Portal for Farmers",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3D",
+      "groupNumber": 3,
+      "presenter": "Purcil, Mc Riezl",
+      "proponents": [],
+      "presenterOrder": 46,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Development of a QR Code-Based Evacuee Monitoring Mobile Application",
+          "technology": "Web and Mobile Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Reserved Concept 2",
+          "technology": "—",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Development of a QR Code-Based Evacuee Monitoring Mobile Application",
+      "titleDefenseTechnology": "Web and Mobile Application"
+    },
+    {
+      "section": "BSIT3D",
+      "groupNumber": 4,
+      "presenter": "Villanueva, Laurence",
+      "proponents": [
+        "Paga, Emil",
+        "Panagan, Leslie",
+        "Cordez, Sheena"
+      ],
+      "presenterOrder": 19,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "GenRx: Online Medicine Ordering and QR Pickup System",
+          "technology": "Web and Mobile Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "ARFind: Augmented Reality-Based Office Finder with Multiple Route",
+          "technology": "Augmented Reality",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "AlaGov: NLP-Powered Local Government Services Chatbot and",
+          "technology": "Web and Mobile Application",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "GenRx: Online Medicine Ordering and QR Pickup System",
+      "titleDefenseTechnology": "Web and Mobile Application"
+    },
+    {
+      "section": "BSIT3D",
+      "groupNumber": 5,
+      "presenter": "Lagatic, Christopher",
+      "proponents": [
+        "Lazaro, Christine",
+        "Tapia, Aeron Jay"
+      ],
+      "presenterOrder": 32,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "PalayLink: A Mobile-Based Direct Marketing and Buyer Verification",
+          "technology": "Mobile Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "System for Rice Farmers in Tigaon, Camarines Sur Design and Implementation of an E-Grocery Platform for Local Store",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "PalayLink: A Mobile-Based Direct Marketing and Buyer Verification",
+      "titleDefenseTechnology": "Mobile Application"
+    },
+    {
+      "section": "BSIT3D",
+      "groupNumber": 6,
+      "presenter": "Millesca, Jodelyn B.",
+      "proponents": [
+        "Tilar, Benjie"
+      ],
+      "presenterOrder": 49,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Developement of a Mobile-Based Centralized Immunization Tracking and Vaccination Reminder System for Barangay Health Centers in the",
+          "technology": "Mobile Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Reserved Concept 2",
+          "technology": "—",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Developement of a Mobile-Based Centralized Immunization Tracking and Vaccination Reminder System for Barangay Health Centers in the",
+      "titleDefenseTechnology": "Mobile Application"
+    },
+    {
+      "section": "BSIT3D",
+      "groupNumber": 7,
+      "presenter": "Prado, Jeof",
+      "proponents": [
+        "Prestosa, Janine",
+        "Villaralbo, Julius",
+        "Magnosay, Trisha C.",
+        "Lodor, Princess B."
+      ],
+      "presenterOrder": 29,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "TrabahoLink: A Web Based Skilled Worker Matching and Service Request",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Awareness among Students KALASAG: A web-based climate resilience certification system for",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "rural infrastructure in partido, camarines sur MOVAL: A Mobile-Based 3D Virtual Automotive Laboratory Using",
+          "technology": "Mobile Application",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "TrabahoLink: A Web Based Skilled Worker Matching and Service Request",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3D",
+      "groupNumber": 8,
+      "presenter": "San Esteban, Pia",
+      "proponents": [],
+      "presenterOrder": 15,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "PARTIDO WORD-CATCH: Mother Tongue-Based Language Game A",
+          "technology": "Game Development",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Reserved Concept 2",
+          "technology": "—",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "PARTIDO WORD-CATCH: Mother Tongue-Based Language Game A",
+      "titleDefenseTechnology": "Game Development"
+    },
+    {
+      "section": "BSIT3D",
+      "groupNumber": 9,
+      "presenter": "Peñero, Ken Joseph",
+      "proponents": [
+        "Israel, Darwin",
+        "Marasigan, Julie"
+      ],
+      "presenterOrder": 21,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "OOPs: Gamified Learning of Object-Oriented Programming Through an",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "E-Ticket: Development of an Automated Traffic Violation Ticketing System with Payment and Digital Receipt Generation for the Municipality of Goa,",
+          "technology": "System Development",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "OOPs: Gamified Learning of Object-Oriented Programming Through an",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3D",
+      "groupNumber": 10,
+      "presenter": "Polillo, Meljun",
+      "proponents": [
+        "Paronda, Mark",
+        "Postrado, Arjay"
+      ],
+      "presenterOrder": 36,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "EcoShield AI: An IoT-Enabled Flood Monitoring and Early Warning System",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "EcoCollect AI: Development of an AI-Powered Smart Waste Collection and",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "EcoShield AI: An IoT-Enabled Flood Monitoring and Early Warning System",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3D",
+      "groupNumber": 11,
+      "presenter": "Peley, Cienna Angela",
+      "proponents": [
+        "Ilagan, Paulene Cris",
+        "Gonzaga, John Clark"
+      ],
+      "presenterOrder": 16,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "CellAR: An Augmented Reality-Based Interactive Learning System for",
+          "technology": "Augmented Reality",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "KolektaKita: A Web Based Recycling Marketplace Connecting",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "CellAR: An Augmented Reality-Based Interactive Learning System for",
+      "titleDefenseTechnology": "Augmented Reality"
+    },
+    {
+      "section": "BSIT3D",
+      "groupNumber": 12,
+      "presenter": "Piloneo, Pauline Joy",
+      "proponents": [
+        "Santamaria, Mae Francine",
+        "Enciso, Anola"
+      ],
+      "presenterOrder": 25,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Comprehension Diagnosis through Behavior Analytics, Fluency Tracking,",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Camarines Sur Real-Time Rice Leaf Disease Detection and Severity Estimation",
+          "technology": "Mobile Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Comprehension Diagnosis through Behavior Analytics, Fluency Tracking,",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3D",
+      "groupNumber": 13,
+      "presenter": "Arayon, Francis Jerome",
+      "proponents": [
+        "Barbosa, Anthea Mae",
+        "Zambrano, Ivan",
+        "Faurillo, Rian"
+      ],
+      "presenterOrder": 12,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "An Arduino-Based Water Level and Temperature Monitoring System with",
+          "technology": "Web and Mobile Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Showcasing Local Products in Lagonoy, Camarines Sur Design and Development of a Smart Bus Occupancy and Arrival",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Monitoring System Mobile App for local fish Vending",
+          "technology": "Mobile Application",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "An Arduino-Based Water Level and Temperature Monitoring System with",
+      "titleDefenseTechnology": "Web and Mobile Application"
+    },
+    {
+      "section": "BSIT3E",
+      "groupNumber": 1,
+      "presenter": "Molina, Samson",
+      "proponents": [
+        "Nitullano, Aljon",
+        "Rivero, John Lawrence"
+      ],
+      "presenterOrder": 52,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Mobile-Based Church Financial Record Management System for",
+          "technology": "Mobile Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "AR-Hardware: An Augmented Reality-Based Computer Parts Learning",
+          "technology": "Mobile Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Mobile-Based Church Financial Record Management System for",
+      "titleDefenseTechnology": "Mobile Application"
+    },
+    {
+      "section": "BSIT3E",
+      "groupNumber": 2,
+      "presenter": "Bacares, Romel Jr.",
+      "proponents": [
+        "Cabahug, Arjae",
+        "Obado, Ralph Joshua"
+      ],
+      "presenterOrder": 48,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Smart Farm: An IoT-Based Monitoring and Notification System for",
+          "technology": "Mobile Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Mathematics and English Review Among Grade 6 Pupils Preparing for",
+          "technology": "Web and Mobile Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Smart Farm: An IoT-Based Monitoring and Notification System for",
+      "titleDefenseTechnology": "Mobile Application"
+    },
+    {
+      "section": "BSIT3E",
+      "groupNumber": 3,
+      "presenter": "Sarto, Sean Henjie",
+      "proponents": [
+        "Arroyo, Juliane Christine",
+        "Banzuela, Emilyn",
+        "Rodrigueza, Chelsea"
+      ],
+      "presenterOrder": 42,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Classifying the Reading",
+          "technology": "System Development",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "and Sales Analytics Web-Based Community Disaster Resource Management Information",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Classifying the Reading",
+      "titleDefenseTechnology": "System Development"
+    },
+    {
+      "section": "BSIT3E",
+      "groupNumber": 4,
+      "presenter": "Calinog, Edgar IV",
+      "proponents": [
+        "Gonzaga, Melody",
+        "Rivero, Irvin",
+        "Dela Cruz, Ellen"
+      ],
+      "presenterOrder": 51,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "and Medical Records Request System for the University Clinic of",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Monitoring Kiosk System systems for improved campus Security And Visitor",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "and Medical Records Request System for the University Clinic of",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3E",
+      "groupNumber": 5,
+      "presenter": "Milanay, Mark Anthony",
+      "proponents": [
+        "Geopano, Cristian",
+        "Magcalayo, Mark Charlie",
+        "Dizon, Kenneth Paul"
+      ],
+      "presenterOrder": 28,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "SeedTrace: A Web-Based Rice Seed Origin and Traceability System",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "Web and Mobile-Based Clinic Appointment and Patient Management",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Web-Based Online Community Blotter and Incident Reporting System",
+          "technology": "Web Application",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "SeedTrace: A Web-Based Rice Seed Origin and Traceability System",
+      "titleDefenseTechnology": "Web Application"
+    },
+    {
+      "section": "BSIT3E",
+      "groupNumber": 6,
+      "presenter": "Pahoyo, John Kendric P.",
+      "proponents": [
+        "Pempeña, Nick G.",
+        "Vipinoso, Rica Rose R."
+      ],
+      "presenterOrder": 3,
+      "concepts": [
+        {
+          "slot": 1,
+          "title": "Annotation and Revision Tracking Web-Based Thesis Defense",
+          "technology": "Web Application",
+          "titleDefense": true
+        },
+        {
+          "slot": 2,
+          "title": "GIS Visualization IoT-Based Flood Detection Real-Time Monitoring & SMS Response",
+          "technology": "Web Application",
+          "titleDefense": false
+        },
+        {
+          "slot": 3,
+          "title": "Reserved Concept 3",
+          "technology": "—",
+          "titleDefense": false
+        }
+      ],
+      "titleDefenseTitle": "Annotation and Revision Tracking Web-Based Thesis Defense",
+      "titleDefenseTechnology": "Web Application"
+    }
+  ],
+  "meta": {
+    "source": "Order.pdf",
+    "totalGroups": 51
+  }
+}
