@@ -446,6 +446,19 @@ body.sidebar-closed .page-wrap { margin-left: 0; }
 .form-download { margin-top: auto; align-self: flex-start; font-size: 0.82rem; padding: 9px 16px; }
 .form-download svg { width: 15px; height: 15px; stroke-width: 2; }
 
+/* Capstone template page */
+.page-hero-compact { padding: 28px 24px 20px; }
+.page-hero-compact .page-hero-inner { max-width: var(--maxw); margin: 0 auto; }
+.hero-text-full { max-width: none; }
+.template-callout { margin-bottom: 20px; }
+.template-grid { margin-top: 4px; }
+.template-card .form-code { background: rgba(26, 54, 93, 0.06); border-color: rgba(26, 54, 93, 0.15); }
+.template-note {
+  display: flex; align-items: center; gap: 8px;
+  margin-top: 20px; font-size: 0.86rem;
+}
+.template-note .inline-icon { width: 16px; height: 16px; stroke-width: 2; flex-shrink: 0; }
+
 /* Title Defense */
 .title-defense-meta { margin: 20px 0 24px; display: flex; flex-direction: column; gap: 20px; }
 .subsection-title {

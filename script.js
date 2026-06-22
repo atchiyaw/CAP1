@@ -17,6 +17,13 @@
     { id: 'sec-ethics', label: 'Ethics & Final Output' }
   ];
 
+  const sitePage = document.body.dataset.sitePage || 'home';
+  const indexBase = sitePage === 'home' ? '' : 'index.html';
+
+  function sectionHref(id) {
+    return indexBase ? indexBase + '#' + id : '#' + id;
+  }
+
   const navItems = [
     { id: 'governing-policies', label: 'Governing Policies', icon: 'scroll-text', children: policyChildren },
     { id: 'groupings', label: 'Groupings', icon: 'users' },
@@ -27,10 +34,12 @@
     { id: 'progress-report-2', label: 'Progress Report 2', icon: 'bar-chart-4' },
     { id: 'final-defense', label: 'Final Defense', icon: 'award' },
     { id: 'forms', label: 'Forms', icon: 'file-text' },
-    { id: 'capstone-template', label: 'Capstone Template', icon: 'layout-template' }
+    { page: 'capstone-template.html', navKey: 'capstone-template', label: 'Capstone Template', icon: 'layout-template' }
   ];
 
   const sideNav = document.getElementById('sideNav');
+  if (!sideNav) return;
+
   const navList = document.createElement('ol');
   navList.className = 'side-list';
   sideNav.appendChild(navList);
@@ -43,7 +52,7 @@
     if (item.children) {
       li.innerHTML =
         '<div class="side-row">' +
-          '<a class="side-link side-parent" href="#' + item.id + '">' +
+          '<a class="side-link side-parent" href="' + sectionHref(item.id) + '">' +
             '<i data-lucide="' + item.icon + '"></i><span>' + item.label + '</span>' +
           '</a>' +
           '<button type="button" class="side-chevron" aria-label="Toggle ' + item.label + ' subsections" aria-expanded="true"></button>' +
@@ -66,7 +75,7 @@
         const subLi = document.createElement('li');
         const a = document.createElement('a');
         a.className = 'side-sublink';
-        a.href = '#' + child.id;
+        a.href = sectionHref(child.id);
         a.textContent = child.label;
         subLi.appendChild(a);
         sub.appendChild(subLi);
@@ -75,8 +84,9 @@
     } else {
       const a = document.createElement('a');
       a.className = 'side-link';
-      a.href = '#' + item.id;
+      a.href = item.page || sectionHref(item.id);
       a.innerHTML = '<i data-lucide="' + item.icon + '"></i><span>' + item.label + '</span>';
+      if (item.page && sitePage === item.navKey) a.classList.add('active');
       li.appendChild(a);
       navLinks.push(a);
     }
@@ -161,36 +171,49 @@
   /* ---------- Scroll: progress, scrollspy, to-top ---------- */
   const progressBar = document.getElementById('progressBar');
   const toTop = document.getElementById('toTop');
-  const sections = navItems.flatMap(function (item) {
-    const ids = [item.id];
-    if (item.children) ids.push.apply(ids, item.children.map(function (c) { return c.id; }));
-    return ids;
-  }).map(function (id) { return document.getElementById(id); }).filter(Boolean);
+  const sections = navItems
+    .filter(function (item) { return item.id; })
+    .flatMap(function (item) {
+      const ids = [item.id];
+      if (item.children) ids.push.apply(ids, item.children.map(function (c) { return c.id; }));
+      return ids;
+    })
+    .map(function (id) { return document.getElementById(id); })
+    .filter(Boolean);
 
   function onScroll() {
+    if (!progressBar || !toTop) return;
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
     const docH = document.documentElement.scrollHeight - window.innerHeight;
     progressBar.style.width = (docH > 0 ? (scrollTop / docH) * 100 : 0) + '%';
     siteHeader.classList.toggle('scrolled', scrollTop > 10);
     toTop.classList.toggle('show', scrollTop > 500);
 
-    let activeId = sections.length ? sections[0].id : null;
+    if (!sections.length) return;
+
+    let activeId = sections[0].id;
     const offset = 100;
     sections.forEach(function (sec) {
       if (sec.getBoundingClientRect().top <= offset) activeId = sec.id;
     });
 
     navLinks.forEach(function (a) {
-      const href = a.getAttribute('href').slice(1);
+      const href = a.getAttribute('href') || '';
+      const hashIdx = href.indexOf('#');
+      const hrefId = hashIdx >= 0 ? href.slice(hashIdx + 1) : '';
       const activeEl = document.getElementById(activeId);
-      const isDirect = href === activeId;
+      const isDirect = hrefId === activeId;
       const isParentOfActive = a.classList.contains('side-parent') &&
-        activeEl && activeEl.dataset.group === href;
-      a.classList.toggle('active', isDirect || isParentOfActive);
+        activeEl && activeEl.dataset.group === hrefId;
+      if (href.indexOf('capstone-template.html') === -1) {
+        a.classList.toggle('active', isDirect || isParentOfActive);
+      }
     });
   }
-  window.addEventListener('scroll', onScroll, { passive: true });
-  onScroll();
+  if (progressBar && toTop) {
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
 
   /* ---------- Accordion ---------- */
   document.querySelectorAll('.acc-head').forEach(function (btn) {
@@ -222,12 +245,13 @@
 
   /* ---------- Search ---------- */
   const searchInput = document.getElementById('searchInput');
-  const allSections = Array.from(document.querySelectorAll('.section'));
+  const contentEl = document.querySelector('.content');
+  const allSections = contentEl ? Array.from(contentEl.querySelectorAll('.section')) : [];
   const noResults = document.createElement('p');
   noResults.className = 'no-results';
   noResults.textContent = 'No sections match your search.';
   noResults.style.display = 'none';
-  document.querySelector('.content').appendChild(noResults);
+  if (contentEl) contentEl.appendChild(noResults);
 
   function clearHighlights(el) {
     el.querySelectorAll('mark.hl').forEach(function (m) {
@@ -267,10 +291,12 @@
   }
 
   let searchTimer;
-  searchInput.addEventListener('input', function () {
-    clearTimeout(searchTimer);
-    searchTimer = setTimeout(runSearch, 120);
-  });
+  if (searchInput) {
+    searchInput.addEventListener('input', function () {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(runSearch, 120);
+    });
+  }
 
   function runSearch() {
     const term = searchInput.value.trim().toLowerCase();
@@ -295,6 +321,7 @@
   const charCount = document.getElementById('charCount');
   const avatarColors = ['#1a365d', '#2c5282', '#4a5568', '#2d3748'];
 
+  if (form && list && dMessage && charCount) {
   function loadComments() {
     try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; }
     catch (e) { return []; }
@@ -378,6 +405,7 @@
   });
 
   render();
+  }
 
   /* ---------- Book of Abstracts preview ---------- */
   const ABSTRACTS_PDF = 'Book%20of%20Abstracts.pdf';
