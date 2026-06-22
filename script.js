@@ -20,6 +20,7 @@
   const navItems = [
     { id: 'governing-policies', label: 'Governing Policies', icon: 'scroll-text', children: policyChildren },
     { id: 'groupings', label: 'Groupings', icon: 'users' },
+    { id: 'book-of-abstracts', label: 'Book of Abstracts', icon: 'book-open' },
     { id: 'concept-defense', label: 'Concept Defense', icon: 'lightbulb' },
     { id: 'title-defense', label: 'Title Defense', icon: 'presentation' },
     { id: 'progress-report-1', label: 'Progress Report 1', icon: 'bar-chart-3' },
@@ -377,4 +378,39 @@
   });
 
   render();
+
+  /* ---------- Book of Abstracts preview ---------- */
+  const ABSTRACTS_PDF = 'Book%20of%20Abstracts.pdf';
+  const previewBtn = document.getElementById('abstractsPreviewBtn');
+  const previewPanel = document.getElementById('abstractsPreviewPanel');
+  const previewFrame = document.getElementById('abstractsPreviewFrame');
+  const previewLoading = document.getElementById('abstractsPreviewLoading');
+  let previewLoaded = false;
+
+  if (previewBtn && previewPanel && previewFrame) {
+    previewBtn.addEventListener('click', function () {
+      const showing = previewPanel.hidden;
+      previewPanel.hidden = !showing;
+      previewBtn.setAttribute('aria-expanded', showing ? 'true' : 'false');
+      previewBtn.innerHTML = showing
+        ? '<i data-lucide="eye-off"></i> Hide Preview'
+        : '<i data-lucide="eye"></i> Show Preview';
+
+      if (showing && !previewLoaded) {
+        previewLoading.hidden = false;
+        previewFrame.addEventListener('load', function onLoad() {
+          previewLoading.hidden = true;
+          previewFrame.removeEventListener('load', onLoad);
+        }, { once: true });
+        previewFrame.src = ABSTRACTS_PDF;
+        previewLoaded = true;
+      }
+
+      if (window.lucide) lucide.createIcons();
+
+      if (showing) {
+        previewPanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    });
+  }
 })();

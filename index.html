@@ -461,6 +461,54 @@
         </div>
       </article>
 
+      <!-- BOOK OF ABSTRACTS -->
+      <article class="section section-hub parallax-section reveal" id="book-of-abstracts">
+        <div class="section-head">
+          <div class="section-icon"><i data-lucide="book-open"></i></div>
+          <div>
+            <h2>Book of Abstracts</h2>
+            <p class="section-lead">Compiled abstracts for capstone title defense projects — preview online or download the full PDF.</p>
+          </div>
+        </div>
+
+        <div class="abstracts-card">
+          <div class="abstracts-meta">
+            <div class="abstracts-file-info">
+              <i data-lucide="file-text" class="abstracts-file-icon"></i>
+              <div>
+                <strong>Book of Abstracts.pdf</strong>
+                <p class="muted">Official compilation of project abstracts for Capstone Project and Research 1.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="abstracts-toolbar">
+            <button type="button" class="btn btn-primary" id="abstractsPreviewBtn" aria-expanded="false" aria-controls="abstractsPreviewPanel">
+              <i data-lucide="eye"></i> Show Preview
+            </button>
+            <a class="btn btn-secondary" href="Book%20of%20Abstracts.pdf" download="Book-of-Abstracts.pdf">
+              <i data-lucide="download"></i> Download PDF
+            </a>
+            <a class="btn btn-secondary" href="Book%20of%20Abstracts.pdf" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="external-link"></i> Open in New Tab
+            </a>
+          </div>
+
+          <div class="pdf-preview-panel" id="abstractsPreviewPanel" hidden>
+            <div class="pdf-preview-loading" id="abstractsPreviewLoading" hidden>
+              <i data-lucide="loader-circle"></i>
+              <span>Loading preview…</span>
+            </div>
+            <iframe
+              id="abstractsPreviewFrame"
+              title="Book of Abstracts preview"
+              loading="lazy"
+            ></iframe>
+            <p class="pdf-preview-hint muted">Use the viewer controls to zoom, scroll, and navigate pages. For offline use, download the PDF above.</p>
+          </div>
+        </div>
+      </article>
+
       <!-- CONCEPT DEFENSE -->
       <article class="section section-hub section-placeholder parallax-section reveal" id="concept-defense">
         <div class="section-head">
@@ -715,6 +763,7 @@
               <option value="General">General</option>
               <option value="Governing Policies">Governing Policies</option>
               <option value="Groupings">Groupings</option>
+              <option value="Book of Abstracts">Book of Abstracts</option>
               <option value="Concept Defense">Concept Defense</option>
               <option value="Title Defense">Title Defense</option>
               <option value="Progress Report 1">Progress Report 1</option>

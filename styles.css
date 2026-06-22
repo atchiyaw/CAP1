@@ -528,6 +528,11 @@ body.sidebar-closed .page-wrap { margin-left: 0; }
 }
 .btn-primary { background: var(--navy); color: var(--white); }
 .btn-primary:hover { background: var(--navy-light); color: var(--white); }
+.btn-secondary {
+  background: var(--white); color: var(--navy);
+  border: 1px solid var(--border-strong);
+}
+.btn-secondary:hover { background: var(--gray-50); border-color: var(--navy); color: var(--navy); }
 
 /* Discussion */
 .discuss-form {
@@ -878,6 +883,113 @@ mark.hl { background: rgba(184, 134, 11, 0.2); border-radius: 2px; }
   font-size: 0.88rem;
 }
 
+/* Book of Abstracts */
+.abstracts-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 22px;
+  background: var(--white);
+}
+
+.abstracts-file-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.abstracts-file-icon {
+  width: 28px;
+  height: 28px;
+  color: var(--navy);
+  stroke-width: 1.75;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.abstracts-file-info strong {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--navy);
+  margin-bottom: 4px;
+}
+
+.abstracts-file-info p {
+  margin: 0;
+  font-size: 0.86rem;
+}
+
+.abstracts-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.abstracts-toolbar .btn svg {
+  width: 16px;
+  height: 16px;
+  stroke-width: 2;
+}
+
+.pdf-preview-panel {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: var(--gray-50);
+  position: relative;
+}
+
+.pdf-preview-panel[hidden] {
+  display: none !important;
+}
+
+.pdf-preview-loading {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.pdf-preview-loading[hidden] {
+  display: none !important;
+}
+
+.pdf-preview-loading svg {
+  width: 28px;
+  height: 28px;
+  color: var(--navy);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.pdf-preview-panel iframe {
+  display: block;
+  width: 100%;
+  height: min(82vh, 920px);
+  min-height: 480px;
+  border: none;
+  background: #525659;
+}
+
+.pdf-preview-hint {
+  margin: 0;
+  padding: 10px 14px;
+  font-size: 0.8rem;
+  border-top: 1px solid var(--border);
+  background: var(--white);
+}
+
 /* Responsive */
 @media (max-width: 960px) {
   .sidebar { box-shadow: var(--shadow); }
@@ -922,6 +1034,8 @@ mark.hl { background: rgba(184, 134, 11, 0.2); border-radius: 2px; }
     color: var(--muted);
     margin-bottom: 4px;
   }
+  .pdf-preview-panel iframe { min-height: 360px; height: 70vh; }
+  .abstracts-toolbar .btn { flex: 1 1 auto; justify-content: center; }
 }
 
 @media (prefers-reduced-motion: reduce) {
